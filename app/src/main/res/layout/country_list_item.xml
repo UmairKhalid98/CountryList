@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/countryItemCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="50dp"
+    app:cardBackgroundColor="#E8BBE7">>
+
+    <!-- ImageView for the country poster -->
+    <ImageView
+        android:id="@+id/flagImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="100dp"
+        />
+
+    <!-- LinearLayout to hold country details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="8dp">
+
+        <!-- TextView for the country title -->
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Country Name"/>
+
+        <!-- TextView for the country popularity -->
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="code"
+            android:textSize="12sp" />
+
+        <!-- TextView for the country release date -->
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="region"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
