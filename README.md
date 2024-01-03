@@ -28,9 +28,6 @@ CountryViewModel was reponsible for creating LivaData of the countries and genre
 I only used mainactivity since the scope of the app was relatively small. The countryAdapter was used to design how each card in the recycler view would look like
 
 
- Thank you for your consideration and taking the time
-
-
 
 
 
